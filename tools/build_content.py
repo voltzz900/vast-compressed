@@ -251,7 +251,7 @@ def build(out):
             files[f"data/{NS}/loot_table/blocks/{name}.json"] = {
                 "type": "minecraft:block", "random_sequence": f"{NS}:blocks/{name}",
                 "pools": [{"bonus_rolls": 0.0, "rolls": 1.0, "entries": [{"type": "minecraft:item", "name": full}],
-                           "conditions": [{"condition": "minecraft:survives_explosion"}]}]}
+                           "condition": {"type": "minecraft:survives_explosion"}}]}
             files[f"data/{NS}/recipe/compress/{name}.json"] = {
                 "type": "minecraft:crafting_shaped", "category": "building", "key": {"#": below},
                 "pattern": ["###", "###", "###"], "result": {"id": full}}
