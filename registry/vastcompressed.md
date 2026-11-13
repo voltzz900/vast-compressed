@@ -1,6 +1,6 @@
 # Registry page: Vast Compressed
 
-- **File:** `vastcompressed-0.1.0.hmod` (release v0.1.0), kind: mod
+- **File:** `vastcompressed-0.1.1.hmod` (release v0.1.1), kind: mod
 - **Icon:** `icons/vastcompressed.png`
 - **Name:** Vast Compressed
 - **Summary:** The game's blocks packed nine at a time, from I (9 blocks) to IX (387,420,489), and back.

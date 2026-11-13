@@ -15,7 +15,7 @@ import zlib
 from pathlib import Path
 
 NS = "vastcompressed"
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 TIERS = 9
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
 
